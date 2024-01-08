@@ -21,7 +21,8 @@ class ItemsViewModel {
     func fetchProductList() {
         service?.fetchProductList {error, items in
             if let items {
-                self.items.onNext(items)
+                let sortedItems = items.sorted { $0.isSpecialBrand ?? false && !($1.isSpecialBrand ?? false) }
+                self.items.onNext(sortedItems)
                 self.items.onCompleted()
             } else if let error {
                 print(error)

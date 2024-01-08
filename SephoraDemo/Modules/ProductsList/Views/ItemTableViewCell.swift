@@ -17,10 +17,10 @@ class ItemTableViewCell: UITableViewCell {
     var item : StoreItem? 
     {
         didSet {
-            itemTitleLabel.text = item?.product_name
+            itemTitleLabel.text = item?.productName
             itemDescriptionLabel.text = item?.description
             itemPriceLabel.text = "\(item?.price ?? 0)"
-            itemImage.downloaded(from: item?.images_url?.small ?? "")
+            itemImage.downloaded(from: item?.imagesUrl?.small ?? "")
         }
     }
     

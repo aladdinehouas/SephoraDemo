@@ -8,12 +8,24 @@
 import Foundation
 
 struct StoreItem : Codable {
-    let product_id : Int?
-    let product_name : String?
+    let productId : Int?
+    let productName : String?
     let description : String?
     let price : Double?
-    let images_url : ImagesUrl?
-    let c_brand : CBrand?
-    let is_productSet : Bool?
-    let is_special_brand : Bool?
+    let imagesUrl : ImagesUrl?
+    let cBrand : CBrand?
+    let isProductSet : Bool?
+    let isSpecialBrand : Bool?
+    
+    enum CodingKeys: String, CodingKey {
+
+        case productId = "product_id"
+        case productName = "product_name"
+        case description = "description"
+        case price = "price"
+        case imagesUrl = "images_url"
+        case cBrand = "c_brand"
+        case isProductSet = "is_productSet"
+        case isSpecialBrand = "is_special_brand"
+    }
 }
