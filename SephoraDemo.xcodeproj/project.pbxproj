@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06160546C62212402E24628C /* Pods_SephoraDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D250DBFC83FC06A99FA7D3 /* Pods_SephoraDemo.framework */; };
 		2F4820452B4743660062A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4820442B4743660062A7EB /* AppDelegate.swift */; };
 		2F4820472B4743660062A7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4820462B4743660062A7EB /* SceneDelegate.swift */; };
 		2F4820492B4743660062A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4820482B4743660062A7EB /* ViewController.swift */; };
@@ -16,6 +17,16 @@
 		2F48205C2B4743670062A7EB /* SephoraDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48205B2B4743670062A7EB /* SephoraDemoTests.swift */; };
 		2F4820662B4743670062A7EB /* SephoraDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4820652B4743670062A7EB /* SephoraDemoUITests.swift */; };
 		2F4820682B4743670062A7EB /* SephoraDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4820672B4743670062A7EB /* SephoraDemoUITestsLaunchTests.swift */; };
+		2F642C892B49C21A0019CBF3 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C872B49C21A0019CBF3 /* ItemTableViewCell.swift */; };
+		2F642C8A2B49C21A0019CBF3 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F642C882B49C21A0019CBF3 /* ItemTableViewCell.xib */; };
+		2F642C8C2B49DED60019CBF3 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C8B2B49DED60019CBF3 /* StoreItem.swift */; };
+		2F642C8E2B49DF4E0019CBF3 /* ImagesUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C8D2B49DF4E0019CBF3 /* ImagesUrl.swift */; };
+		2F642C902B49DF820019CBF3 /* CBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C8F2B49DF820019CBF3 /* CBrand.swift */; };
+		2F642C922B4A33B30019CBF3 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C912B4A33B30019CBF3 /* ItemsViewModel.swift */; };
+		2F8890F02B4A3D4F0069564B /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8890EF2B4A3D4E0069564B /* UIImageExtensions.swift */; };
+		2FD33A162B4B2A7000BF5FC1 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD33A152B4B2A7000BF5FC1 /* NetworkMonitor.swift */; };
+		9DE262C6E2EB1DB016BCEF39 /* Pods_SephoraDemo_SephoraDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7269228A817DFD9E498AD /* Pods_SephoraDemo_SephoraDemoUITests.framework */; };
+		E53331B02A127A7852AC4071 /* Pods_SephoraDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA59C308542CC7B6EA1E080 /* Pods_SephoraDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0330A8A93C9A37A9A91A8C8A /* Pods-SephoraDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SephoraDemoTests/Pods-SephoraDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F4820412B4743660062A7EB /* SephoraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SephoraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4820442B4743660062A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4820462B4743660062A7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,22 @@
 		2F4820612B4743670062A7EB /* SephoraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SephoraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4820652B4743670062A7EB /* SephoraDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SephoraDemoUITests.swift; sourceTree = "<group>"; };
 		2F4820672B4743670062A7EB /* SephoraDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SephoraDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F642C872B49C21A0019CBF3 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		2F642C882B49C21A0019CBF3 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		2F642C8B2B49DED60019CBF3 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		2F642C8D2B49DF4E0019CBF3 /* ImagesUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesUrl.swift; sourceTree = "<group>"; };
+		2F642C8F2B49DF820019CBF3 /* CBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBrand.swift; sourceTree = "<group>"; };
+		2F642C912B4A33B30019CBF3 /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		2F8890EF2B4A3D4E0069564B /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		2FD33A152B4B2A7000BF5FC1 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		920F3B41F4C0BBB84116CA03 /* Pods-SephoraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo.debug.xcconfig"; path = "Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92147774F28DD8185D04FF4E /* Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A487A4E229006D424EC84C5A /* Pods-SephoraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo.release.xcconfig"; path = "Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BCA59C308542CC7B6EA1E080 /* Pods_SephoraDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SephoraDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D7269228A817DFD9E498AD /* Pods_SephoraDemo_SephoraDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SephoraDemo_SephoraDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE9187D43048B9D8B010DD9 /* Pods-SephoraDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SephoraDemoTests/Pods-SephoraDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D250DBFC83FC06A99FA7D3 /* Pods_SephoraDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SephoraDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6750D896C50C5A6184C3229 /* Pods-SephoraDemo-SephoraDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo-SephoraDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06160546C62212402E24628C /* Pods_SephoraDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53331B02A127A7852AC4071 /* Pods_SephoraDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE262C6E2EB1DB016BCEF39 /* Pods_SephoraDemo_SephoraDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				2F48205A2B4743670062A7EB /* SephoraDemoTests */,
 				2F4820642B4743670062A7EB /* SephoraDemoUITests */,
 				2F4820422B4743660062A7EB /* Products */,
+				BE6D982B4C135DE40BEB58AB /* Pods */,
+				9C98ECACA58086BC42E2A1C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +134,13 @@
 			children = (
 				2F4820442B4743660062A7EB /* AppDelegate.swift */,
 				2F4820462B4743660062A7EB /* SceneDelegate.swift */,
-				2F4820482B4743660062A7EB /* ViewController.swift */,
 				2F48204A2B4743660062A7EB /* Main.storyboard */,
 				2F48204D2B4743670062A7EB /* Assets.xcassets */,
 				2F48204F2B4743670062A7EB /* LaunchScreen.storyboard */,
 				2F4820522B4743670062A7EB /* Info.plist */,
+				2FD33A192B4C062B00BF5FC1 /* Networking */,
+				2FD33A182B4C062500BF5FC1 /* Modules */,
+				2FD33A172B4C061F00BF5FC1 /* Extensions */,
 			);
 			path = SephoraDemo;
 			sourceTree = "<group>";
@@ -127,6 +162,91 @@
 			path = SephoraDemoUITests;
 			sourceTree = "<group>";
 		};
+		2FD33A172B4C061F00BF5FC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F8890EF2B4A3D4E0069564B /* UIImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FD33A182B4C062500BF5FC1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2FD33A1A2B4C065700BF5FC1 /* ProductsList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2FD33A192B4C062B00BF5FC1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2FD33A152B4B2A7000BF5FC1 /* NetworkMonitor.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2FD33A1A2B4C065700BF5FC1 /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				2FD33A1D2B4C067400BF5FC1 /* Models */,
+				2FD33A1C2B4C067000BF5FC1 /* Views */,
+				2FD33A1B2B4C066C00BF5FC1 /* ViewModels */,
+			);
+			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		2FD33A1B2B4C066C00BF5FC1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F642C912B4A33B30019CBF3 /* ItemsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2FD33A1C2B4C067000BF5FC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F642C872B49C21A0019CBF3 /* ItemTableViewCell.swift */,
+				2F642C882B49C21A0019CBF3 /* ItemTableViewCell.xib */,
+				2F4820482B4743660062A7EB /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FD33A1D2B4C067400BF5FC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F642C8B2B49DED60019CBF3 /* StoreItem.swift */,
+				2F642C8D2B49DF4E0019CBF3 /* ImagesUrl.swift */,
+				2F642C8F2B49DF820019CBF3 /* CBrand.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C98ECACA58086BC42E2A1C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D250DBFC83FC06A99FA7D3 /* Pods_SephoraDemo.framework */,
+				C3D7269228A817DFD9E498AD /* Pods_SephoraDemo_SephoraDemoUITests.framework */,
+				BCA59C308542CC7B6EA1E080 /* Pods_SephoraDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE6D982B4C135DE40BEB58AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				920F3B41F4C0BBB84116CA03 /* Pods-SephoraDemo.debug.xcconfig */,
+				A487A4E229006D424EC84C5A /* Pods-SephoraDemo.release.xcconfig */,
+				E6750D896C50C5A6184C3229 /* Pods-SephoraDemo-SephoraDemoUITests.debug.xcconfig */,
+				92147774F28DD8185D04FF4E /* Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig */,
+				CCE9187D43048B9D8B010DD9 /* Pods-SephoraDemoTests.debug.xcconfig */,
+				0330A8A93C9A37A9A91A8C8A /* Pods-SephoraDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F48206B2B4743670062A7EB /* Build configuration list for PBXNativeTarget "SephoraDemo" */;
 			buildPhases = (
+				E60DE07CC64F4BC086D67D92 /* [CP] Check Pods Manifest.lock */,
 				2F48203D2B4743660062A7EB /* Sources */,
 				2F48203E2B4743660062A7EB /* Frameworks */,
 				2F48203F2B4743660062A7EB /* Resources */,
+				2EA0DFBF415F317BB39D6A67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F48206E2B4743670062A7EB /* Build configuration list for PBXNativeTarget "SephoraDemoTests" */;
 			buildPhases = (
+				529502978608556EA0673180 /* [CP] Check Pods Manifest.lock */,
 				2F4820532B4743670062A7EB /* Sources */,
 				2F4820542B4743670062A7EB /* Frameworks */,
 				2F4820552B4743670062A7EB /* Resources */,
@@ -169,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4820712B4743670062A7EB /* Build configuration list for PBXNativeTarget "SephoraDemoUITests" */;
 			buildPhases = (
+				7B4E48AF15E72C85E9490657 /* [CP] Check Pods Manifest.lock */,
 				2F48205D2B4743670062A7EB /* Sources */,
 				2F48205E2B4743670062A7EB /* Frameworks */,
 				2F48205F2B4743670062A7EB /* Resources */,
+				4DA4F3C7DDBFC512C9528807 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F642C8A2B49C21A0019CBF3 /* ItemTableViewCell.xib in Resources */,
 				2F4820512B4743670062A7EB /* LaunchScreen.storyboard in Resources */,
 				2F48204E2B4743670062A7EB /* Assets.xcassets in Resources */,
 				2F48204C2B4743660062A7EB /* Main.storyboard in Resources */,
@@ -253,12 +379,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EA0DFBF415F317BB39D6A67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA4F3C7DDBFC512C9528807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529502978608556EA0673180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SephoraDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4E48AF15E72C85E9490657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SephoraDemo-SephoraDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60DE07CC64F4BC086D67D92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SephoraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F48203D2B4743660062A7EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8890F02B4A3D4F0069564B /* UIImageExtensions.swift in Sources */,
+				2F642C8C2B49DED60019CBF3 /* StoreItem.swift in Sources */,
+				2F642C892B49C21A0019CBF3 /* ItemTableViewCell.swift in Sources */,
+				2F642C902B49DF820019CBF3 /* CBrand.swift in Sources */,
 				2F4820492B4743660062A7EB /* ViewController.swift in Sources */,
+				2F642C8E2B49DF4E0019CBF3 /* ImagesUrl.swift in Sources */,
+				2F642C922B4A33B30019CBF3 /* ItemsViewModel.swift in Sources */,
+				2FD33A162B4B2A7000BF5FC1 /* NetworkMonitor.swift in Sources */,
 				2F4820452B4743660062A7EB /* AppDelegate.swift in Sources */,
 				2F4820472B4743660062A7EB /* SceneDelegate.swift in Sources */,
 			);
@@ -437,11 +673,13 @@
 		};
 		2F48206C2B4743670062A7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920F3B41F4C0BBB84116CA03 /* Pods-SephoraDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SephoraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,11 +702,13 @@
 		};
 		2F48206D2B4743670062A7EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A487A4E229006D424EC84C5A /* Pods-SephoraDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SephoraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +731,7 @@
 		};
 		2F48206F2B4743670062A7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE9187D43048B9D8B010DD9 /* Pods-SephoraDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +751,7 @@
 		};
 		2F4820702B4743670062A7EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0330A8A93C9A37A9A91A8C8A /* Pods-SephoraDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +771,7 @@
 		};
 		2F4820722B4743670062A7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6750D896C50C5A6184C3229 /* Pods-SephoraDemo-SephoraDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +789,7 @@
 		};
 		2F4820732B4743670062A7EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92147774F28DD8185D04FF4E /* Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

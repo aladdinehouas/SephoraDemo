@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F64923D9-3EF3-4F52-B6E4-C174F5B78C71"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4934092D-4A92-4A71-B6CC-6A9E101CCEA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/ItemsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchProductList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4934092D-4A92-4A71-B6CC-6A9E101CCEA1 - cc16e47095fad245"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "4934092D-4A92-4A71-B6CC-6A9E101CCEA1 - cc16e47095fad245"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98D54D3D-0296-459A-BE8A-8E8516DE9DB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/ItemsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchProductList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98D54D3D-0296-459A-BE8A-8E8516DE9DB3 - f0551b976c7294fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "98D54D3D-0296-459A-BE8A-8E8516DE9DB3 - cc16e47095fad33c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B636E24D-8715-4FFC-8AF0-BAC231FFE381"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/ItemsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchProductList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B636E24D-8715-4FFC-8AF0-BAC231FFE381 - cc16e47095fad2c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "B636E24D-8715-4FFC-8AF0-BAC231FFE381 - cc16e47095fad2c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18156A92-0378-41BE-B67E-0CD05E2FD6E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/ItemsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchProductList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18156A92-0378-41BE-B67E-0CD05E2FD6E2 - cc16e47095fad14d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "18156A92-0378-41BE-B67E-0CD05E2FD6E2 - cc16e47095fad162"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A466E62E-E836-4B71-B386-65ED4B1D3786"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/ItemsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchProductList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A466E62E-E836-4B71-B386-65ED4B1D3786 - cc16e47095fad1c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "A466E62E-E836-4B71-B386-65ED4B1D3786 - cc16e47095fad1c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "A466E62E-E836-4B71-B386-65ED4B1D3786 - f0551b976c729669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SephoraDemo.ItemsViewModel.fetchProductList() -&gt; ()"
+                  moduleName = "SephoraDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/solinum.dev/SephoraDemo/SephoraDemo/ItemsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB8BAD0C-D9DF-4F16-B693-24C6AF908AFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/NetworkMonitor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "startMonitoring()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6057DD68-E69C-442E-9003-CCB277C910E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SephoraDemo/NetworkMonitor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "startMonitoring()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
