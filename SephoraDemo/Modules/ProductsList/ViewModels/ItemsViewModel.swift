@@ -11,39 +11,21 @@ import RxCocoa
 
 class ItemsViewModel {
     
+    let service: ProductsListService?
     var items = PublishSubject<[StoreItem]>()
     
-    func fetchProductList() {
-        let url = URL(string: "https://sephoraios.github.io/items.json")!
-        var urlRequest = URLRequest(url: url)
-        
-       // Load from the cache
-        urlRequest.cachePolicy = .returnCacheDataDontLoad
-
-        // Load from the source
-        if NetworkMonitor.shared.isReachable {
-            urlRequest.cachePolicy = .reloadIgnoringLocalCacheData
-        }
-        
-        let task = URLSession.shared.dataTask(with: urlRequest) { data, response, error in
-            if let error = error {
-                print(error)
-            } else if let data = data, let response = response as? HTTPURLResponse {
-                if response.statusCode == 200 {
-                    print(data)
-                    let decoder = JSONDecoder()
-                    if let items = try? decoder.decode([StoreItem].self, from: data) {
-                        self.items.onNext(items)
-                        self.items.onCompleted()
-                        print(items)
-                    }
-                } else {
-                    print("something went wrong")
-                }
-            }
-        }
-        
-        task.resume()
+    init(service: ProductsListService = ProductsListService.shared) {
+        self.service = service
     }
     
+    func fetchProductList() {
+        service?.fetchProductList {error, items in
+            if let items {
+                self.items.onNext(items)
+                self.items.onCompleted()
+            } else if let error {
+                print(error)
+            }
+        }
+    }
 }

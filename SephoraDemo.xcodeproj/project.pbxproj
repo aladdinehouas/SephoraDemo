@@ -25,6 +25,7 @@
 		2F642C922B4A33B30019CBF3 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642C912B4A33B30019CBF3 /* ItemsViewModel.swift */; };
 		2F8890F02B4A3D4F0069564B /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8890EF2B4A3D4E0069564B /* UIImageExtensions.swift */; };
 		2FD33A162B4B2A7000BF5FC1 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD33A152B4B2A7000BF5FC1 /* NetworkMonitor.swift */; };
+		2FD33A202B4C3A9B00BF5FC1 /* ProductsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD33A1F2B4C3A9B00BF5FC1 /* ProductsListService.swift */; };
 		9DE262C6E2EB1DB016BCEF39 /* Pods_SephoraDemo_SephoraDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7269228A817DFD9E498AD /* Pods_SephoraDemo_SephoraDemoUITests.framework */; };
 		E53331B02A127A7852AC4071 /* Pods_SephoraDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA59C308542CC7B6EA1E080 /* Pods_SephoraDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		2F642C912B4A33B30019CBF3 /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
 		2F8890EF2B4A3D4E0069564B /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		2FD33A152B4B2A7000BF5FC1 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		2FD33A1F2B4C3A9B00BF5FC1 /* ProductsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListService.swift; sourceTree = "<group>"; };
 		920F3B41F4C0BBB84116CA03 /* Pods-SephoraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo.debug.xcconfig"; path = "Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		92147774F28DD8185D04FF4E /* Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SephoraDemo-SephoraDemoUITests/Pods-SephoraDemo-SephoraDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A487A4E229006D424EC84C5A /* Pods-SephoraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SephoraDemo.release.xcconfig"; path = "Target Support Files/Pods-SephoraDemo/Pods-SephoraDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		2FD33A1A2B4C065700BF5FC1 /* ProductsList */ = {
 			isa = PBXGroup;
 			children = (
+				2FD33A1E2B4C3A8100BF5FC1 /* Services */,
 				2FD33A1D2B4C067400BF5FC1 /* Models */,
 				2FD33A1C2B4C067000BF5FC1 /* Views */,
 				2FD33A1B2B4C066C00BF5FC1 /* ViewModels */,
@@ -222,6 +225,14 @@
 				2F642C8F2B49DF820019CBF3 /* CBrand.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2FD33A1E2B4C3A8100BF5FC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2FD33A1F2B4C3A9B00BF5FC1 /* ProductsListService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		9C98ECACA58086BC42E2A1C9 /* Frameworks */ = {
@@ -495,6 +506,7 @@
 				2F642C8E2B49DF4E0019CBF3 /* ImagesUrl.swift in Sources */,
 				2F642C922B4A33B30019CBF3 /* ItemsViewModel.swift in Sources */,
 				2FD33A162B4B2A7000BF5FC1 /* NetworkMonitor.swift in Sources */,
+				2FD33A202B4C3A9B00BF5FC1 /* ProductsListService.swift in Sources */,
 				2F4820452B4743660062A7EB /* AppDelegate.swift in Sources */,
 				2F4820472B4743660062A7EB /* SceneDelegate.swift in Sources */,
 			);
